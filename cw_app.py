@@ -16,7 +16,7 @@ M=st.number_input("Maximum Moment at midspan(kNm)",min_value=0.0)
 
 wcr=cw_calc.crack_width(fck,b,D,dc,Cmin,s,db,M)
 
-st.write(f"Crack width={wcr}mm")
+st.write(f"CRACK WIDTH={wcr}mm")
 
 
 
